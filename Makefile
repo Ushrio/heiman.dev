@@ -15,4 +15,8 @@ clean:
 deploy:
 	git add docs/
 	git commit -m "Rebuild"
-	git push origin master
+	git push origin main
+
+deploy-empty:
+	git commit -m "Rebuild Pages" --allow-empty
+	git push origin main
