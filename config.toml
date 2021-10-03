@@ -1,4 +1,4 @@
-baseURL = "https://ushiro.github.io/"
+baseURL = "https://heiman.dev/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Greg Heiman Personal Website"
@@ -18,12 +18,6 @@ pygmentsUseClasses = true       # This applies to Chroma too.
 
       publishDir = "docs"
 
-[Author]
-  name = "Greg Heiman"
-
-[Social]
-  github = "Ushrio"
-
 [Menu]
   [[Menu.Main]]
     identifier = "posts"
@@ -31,21 +25,8 @@ pygmentsUseClasses = true       # This applies to Chroma too.
     url = "/posts/"
     weight = 10
 
-  [[Menu.Main]]
-    identifier = "resume"
-    name = "Resume"
-    url = "/resume/"
-    weight = 12
-
 [Params]
   description = "Thoughts, posts, notes, and random museings"
   sitename = "Greg Heiman Blog"
+  author = "Greg Heiman"
   github = "https://github.com/Ushiro"
-  intro = ""
-  footer = ""
-  custom_css = ["css/style.css"]
-
-  [[Params.source]]
-    url = "https://github.com/Ushrio/ushiro.github.io" # Mandatory, used in hugo-bare-min-theme single.html, baseof.html
-    org_dir = "content-org/"
-    md_dir = "content/"

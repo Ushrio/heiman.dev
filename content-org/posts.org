@@ -1,0 +1,14 @@
+#+title: Posts
+#+author: Greg Heiman
+#+date: <2021-10-02 Sat>
+#+hugo_base_dir: ../
+#+hugo_section: posts
+#+OPTIONS: toc:2
+
+* Posts
+** First Post Using Org Mode, Hugo, and Ox-Hugo :first-post:org:hugo:ox-hugo:
+:PROPERTIES:
+:EXPORT_FILE_NAME: first-post
+:EXPORT_DATE: 2021-10-02
+:END:
+This is my first post on my new personal website.

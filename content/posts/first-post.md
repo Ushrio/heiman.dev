@@ -1,8 +1,8 @@
 +++
-title = "First Post"
+title = "First Post Using Org Mode, Hugo, and Ox-Hugo :first-post:org:hugo:ox-hugo:"
 author = ["Greg Heiman"]
-date = 2021-10-02T00:00:00-05:00
+date = 2021-10-02
 draft = false
 +++
 
-This is my first post using Org mode and Hugo. Changed content.
+This is my first post on my new personal website.
