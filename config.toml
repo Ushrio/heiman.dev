@@ -1,7 +1,8 @@
-baseURL = "https://ushrio.github.io/heiman.dev/"
+baseURL = "https://ushrio.github.io/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Greg Heiman Personal Website"
+theme = "hugo-themes-basic"
 
 disableFastRender = true        # Hugo 0.30
 
@@ -18,15 +19,15 @@ pygmentsUseClasses = true       # This applies to Chroma too.
 
       publishDir = "docs"
 
-[Menu]
-  [[Menu.Main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 10
 
-[Params]
+[params]
   description = "Thoughts, posts, notes, and random museings"
   sitename = "Greg Heiman Blog"
   author = "Greg Heiman"
   github = "https://github.com/Ushiro"
+
+  [[params.menu]]
+    identifier = "posts"
+    name = "Posts"
+    url = "posts/"
+    weight = 10

@@ -1,9 +1,23 @@
 +++
-title = "First Post Using Org Mode, Hugo, and Ox-Hugo :first-post:org:hugo:ox-hugo:"
+title = "Why make a personal website?"
 author = ["Greg Heiman"]
 date = 2021-10-02
 draft = false
 aliases = "/posts/first-post"
 +++
 
-This is my first post on my new personal website.
+A personal website is a concept that I have been throwing around in my head for a while now.
+It has always been a concept that I have been interested in, but I have yet to take the dive till now.
+I think the greatest accomplishment of a personal website is the idea that it represents a canvas for your
+ideas. You can do whatever and post whatever you want onto a personal website. This freedom is exciting
+and enjoyable. I look forward to using this canvas as a place to place my ideas as they ruminate in my
+head. This will also hopefully act as a place to point recruiters and possible employers when they are
+interested in my past work and accomplishments.
+
+I have begun the creation of this website using Org mode, Hugo, and Ox-Hugo. I find that this combination
+of programs allows for me to work in the comfort of Org without having to worry about html or css. Also,
+Hugo shows lots of promise for generating beautiful, fast static websites. So far the work flow has been
+pleasant once everything was set up. I plan on hosting this site using Github Pages, mainly for the fact
+that each user gets one free site. However, I don't love the URL name for the Github Pages site (I know it's a silly thing). So perhaps one day I will purchase my very own domain; I'm thinking heiman.dev.
+
+Anywhoosies, that's all for today. I look forward to making more of these posts in the near future.

@@ -2,18 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Greg Heiman Personal Website</title>
-    <link>https://ushrio.github.io/heiman.dev/</link>
+    <link>https://ushrio.github.io/</link>
     <description>Recent content on Greg Heiman Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Oct 2021 00:00:00 -0500</lastBuildDate><atom:link href="https://ushrio.github.io/heiman.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Oct 2021 23:31:55 -0500</lastBuildDate><atom:link href="https://ushrio.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post Using Org Mode, Hugo, and Ox-Hugo :first-post:org:hugo:ox-hugo:</title>
-      <link>https://ushrio.github.io/heiman.dev/posts/first-post/</link>
+      <title></title>
+      <link>https://ushrio.github.io/posts/posts/</link>
+      <pubDate>Sat, 02 Oct 2021 23:31:55 -0500</pubDate>
+      
+      <guid>https://ushrio.github.io/posts/posts/</guid>
+      <description>Posts First Post Using Org Mode, Hugo, and Ox-Hugo :first-post:org:hugo:ox-hugo: This is my first post on my new personal website.</description>
+    </item>
+    
+    <item>
+      <title>Why make a personal website?</title>
+      <link>https://ushrio.github.io/posts/first-post/</link>
       <pubDate>Sat, 02 Oct 2021 00:00:00 -0500</pubDate>
       
-      <guid>https://ushrio.github.io/heiman.dev/posts/first-post/</guid>
-      <description>This is my first post on my new personal website.</description>
+      <guid>https://ushrio.github.io/posts/first-post/</guid>
+      <description>A personal website is a concept that I have been throwing around in my head for a while now. It has always been a concept that I have been interested in, but I have yet to take the dive till now. I think the greatest accomplishment of a personal website is the idea that it represents a canvas for your ideas. You can do whatever and post whatever you want onto a personal website.</description>
     </item>
     
   </channel>
