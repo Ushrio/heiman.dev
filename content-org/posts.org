@@ -10,5 +10,6 @@
 :PROPERTIES:
 :EXPORT_FILE_NAME: first-post
 :EXPORT_DATE: 2021-10-02
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: aliases /posts/first-post
 :END:
 This is my first post on my new personal website.

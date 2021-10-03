@@ -4,7 +4,6 @@ VERSION ?= latest
 
 build:
 	hugo --destination docs
-	cp static/CNAME docs/
 
 run:
 	hugo server
