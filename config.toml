@@ -1,18 +1,7 @@
-baseURL = "https://ushiro.github.io"
+baseURL = "https://ushiro.github.io/"
 languageCode = "en-us"
+DefaultContentLanguage = "en"
 title = "Greg Heiman Personal Website"
-
-# Mon Dec 18 17:41:00 EST 2017 - kmodi
-# Need the canonifyURLs to be true as the test site is
-# served in a subdir of https://ox-hugo.scripter.co/ ->
-# https://ox-hugo.scripter.co/test/ So links like /images/foo.png
-# won't work.. as /images/foo.png would be tried to be searched
-# directly under https://ox-hugo.scripter.co/ instead of under
-# https://ox-hugo.scripter.co/test/
-canonifyURLs = true
-
-enableEmoji = true
-enableGitInfo = true
 
 disableFastRender = true        # Hugo 0.30
 
@@ -23,10 +12,11 @@ pygmentsUseClasses = true       # This applies to Chroma too.
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true # This is *necessary* for ox-hugo to work well with Hugo 0.60.0+
+      enableEmoji = true
+      enableGitInfo = true
+      canonifyURLs = true
 
-[Taxonomies]
-  category = "categories" # SINGULAR = "PLURAL"
-  tag = "tags"
+      publishDir = "docs"
 
 [Author]
   name = "Greg Heiman"
@@ -34,12 +24,28 @@ pygmentsUseClasses = true       # This applies to Chroma too.
 [Social]
   github = "Ushrio"
 
+[Menu]
+  [[Menu.Main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[Menu.Main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 12
+
 [Params]
-  description = "Personal website with blogs and musings"
+  description = "Thoughts, posts, notes, and random museings"
+  sitename = "Greg Heiman Blog"
+  github = "https://github.com/Ushiro"
   intro = ""
   footer = ""
   custom_css = ["css/style.css"]
-  [Params.source]
+
+  [[Params.source]]
     url = "https://github.com/Ushrio/ushiro.github.io" # Mandatory, used in hugo-bare-min-theme single.html, baseof.html
-    org_dir = "site/content-org"
-    md_dir = "site/hugo/content/posts"
+    org_dir = "content-org/"
+    md_dir = "content/"

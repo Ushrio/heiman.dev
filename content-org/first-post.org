@@ -3,6 +3,6 @@
 #+date: <2021-10-02 Sat>
 #+lastmod: [2021-10-20 Sat 20:09]
 #+draft: true
-#+hugo_base_dir: ../hugo/
+#+hugo_base_dir: ../../
 
 This is my first post using Org mode and Hugo. Changed content.
