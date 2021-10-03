@@ -1,0 +1,10 @@
+# Vim
+*.vim
+Session.vim
+
+# Emacs
+*.lock
+#*
+*#
+
+

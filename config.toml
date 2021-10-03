@@ -40,6 +40,6 @@ pygmentsUseClasses = true       # This applies to Chroma too.
   footer = ""
   custom_css = ["css/style.css"]
   [Params.source]
-    url = "https://github.com/Ushrio/ushrio.github.io" # Mandatory, used in hugo-bare-min-theme single.html, baseof.html
+    url = "https://github.com/Ushrio/ushiro.github.io" # Mandatory, used in hugo-bare-min-theme single.html, baseof.html
     org_dir = "site/content-org"
     md_dir = "site/hugo/content/posts"
