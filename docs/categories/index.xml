@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Greg Heiman Personal Website</title>
-    <link>https://ushrio.github.io/categories/</link>
+    <link>https://ushrio.github.io/heiman.dev/categories/</link>
     <description>Recent content in Categories on Greg Heiman Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ushrio.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ushrio.github.io/heiman.dev/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
