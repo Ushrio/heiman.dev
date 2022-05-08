@@ -7,6 +7,7 @@ import python_icon from './assets/python-icon.png';
 import git_icon from './assets/git-icon.png';
 import discord_logo from './assets/discord-logo.png';
 import plex_logo from './assets/plex-logo.png';
+import gaea_logo from './assets/gaea-ll-logo.png';
 
 import './App.css';
 
@@ -138,7 +139,7 @@ function Projects() {
           <div className="projects-container">
             <div className="project-container project-card">
               <img
-                src="https://www.loungelovers.io/wp-content/uploads/2022/03/My-project-10.png"
+                src={gaea_logo}
                 alt=""
                 loading="lazy"
                 className="project-pic"
