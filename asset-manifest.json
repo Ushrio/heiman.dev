@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.18c10f4f.css",
-    "main.js": "/static/js/main.65769ba7.js",
+    "main.css": "/static/css/main.d9c34f0f.css",
+    "main.js": "/static/js/main.b8065a9e.js",
     "static/js/787.fdae77a9.chunk.js": "/static/js/787.fdae77a9.chunk.js",
     "static/media/Greg_Heiman_Picture_Square.jpg": "/static/media/Greg_Heiman_Picture_Square.d81b4d05a6e613ce707e.jpg",
     "static/media/js-icon.png": "/static/media/js-icon.92169892ea013a5154bd.png",
@@ -12,12 +12,12 @@
     "static/media/cpp-icon.png": "/static/media/cpp-icon.475b8f561ae55a9766ea.png",
     "static/media/discord-logo.png": "/static/media/discord-logo.b872d53ea2d3d9e24b61.png",
     "index.html": "/index.html",
-    "main.18c10f4f.css.map": "/static/css/main.18c10f4f.css.map",
-    "main.65769ba7.js.map": "/static/js/main.65769ba7.js.map",
+    "main.d9c34f0f.css.map": "/static/css/main.d9c34f0f.css.map",
+    "main.b8065a9e.js.map": "/static/js/main.b8065a9e.js.map",
     "787.fdae77a9.chunk.js.map": "/static/js/787.fdae77a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18c10f4f.css",
-    "static/js/main.65769ba7.js"
+    "static/css/main.d9c34f0f.css",
+    "static/js/main.b8065a9e.js"
   ]
 }
