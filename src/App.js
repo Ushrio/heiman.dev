@@ -14,6 +14,21 @@ function App() {
     return (
         <div className="App">
           <header className="App-header">
+            <div>
+              <NavBar/>
+              <Hero/>
+              <MoreAbout/>
+              <Skills/>
+              <Projects/>
+              <Contact/>
+            </div>
+          </header>
+        </div>
+    );
+}
+
+function NavBar() {
+    return (
             <nav>
               <h1>Greg Heiman</h1>
               <ul className="navigation">
@@ -26,6 +41,11 @@ function App() {
                 <ion-icon className="bars" name="menu-outline"></ion-icon>
               </button>
             </nav>
+    );
+}
+
+function Hero() {
+    return (
             <section className="hero" id="about">
               <img
                 src={Greg_Heiman_Pic}
@@ -41,6 +61,11 @@ function App() {
                 </p>
               </div>
             </section>
+    );
+}
+
+function MoreAbout() {
+    return (
             <section className="more-about">
               <h2>More About Me</h2>
               <p>
@@ -53,9 +78,13 @@ function App() {
                 I have a strong desire to learn new programming languages as well as working to keep my skills up to date with the ones that I know. I am currently excited to learn Rust as well as deepen my understanding of C/C++.
               </p>
             </section>
+    );
+}
+
+function Skills() {
+    return (
             <section className="skills" id="skills">
               <h2 className="skill-header">Skills</h2>
-
               <div className="skills-wrapper">
                 <div className="first-set animate__animated animate__pulse">
                   <img
@@ -77,7 +106,6 @@ function App() {
                     className="icon icon-card"
                   />
                 </div>
-
                 <div className="second-set animate__animated animate__pulse">
                   <img
                     src={java_icon}
@@ -99,6 +127,12 @@ function App() {
                   />
                 </div>
               </div>
+        </section>
+    );
+}
+
+function Projects() {
+    return (
               <section className="projects" id="projects">
                 <h2 className="projects-title">Recent Projects</h2>
                 <div className="projects-container">
@@ -151,7 +185,11 @@ function App() {
                   </div>
                 </div>
               </section>
-            </section>
+    )
+}
+
+function Contact() {
+    return (
             <section className="contact" id="contact">
               <h2>Get In Touch With Me</h2>
               <br />
@@ -159,9 +197,7 @@ function App() {
                 <p><a href="mailto:gregheiman02@gmail.com">Send Me an Email</a></p>
               </div>
             </section>
-          </header>
-        </div>
-    );
+    )
 }
 
 export default App;
